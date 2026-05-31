@@ -4,19 +4,21 @@
 }
 
 :root {
-    --accent: #1b7f7a;
+    --accent: #10302f
 }
 
 .accent {
     color: var(--accent);
 }
 
+:root {
+    --link: #1b7f7a;
+}
+
 a {
-    color: var(--accent);
-    text-decoration: none;
+    color: var(--link);
 }
 
 a:hover {
-    text-decoration: underline;
-    opacity: 0.8;
+    color: var(--accent);
 }
