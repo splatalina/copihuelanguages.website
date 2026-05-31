@@ -1,24 +1,23 @@
-.gray-bg{
-	background-color: silver;
-	color: black;
+.gray-bg {
+    background-color: silver;
+    color: black;
 }
 
 :root {
-    --accent: #0e4543
+    --accent: #0e4543;
+    --link: #1b7f7a;
 }
 
 .accent {
     color: var(--accent);
 }
 
-:root {
-    --link: #1b7f7a;
-}
-
 a {
     color: var(--link);
+    text-decoration: none;
 }
 
 a:hover {
     color: var(--accent);
+    text-decoration: underline;
 }
