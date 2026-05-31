@@ -8,6 +8,11 @@
     --link: #1b7f7a;
 }
 
+.nav {
+    text-align: center;
+    margin-top: 2rem;
+}
+
 .accent {
     color: var(--accent);
 }
