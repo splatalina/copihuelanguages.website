@@ -3,3 +3,11 @@
 	color: black;
 }
 
+:root {
+    --accent: #2bb7b3;
+}
+
+.accent {
+    color: var(--accent);
+}
+
